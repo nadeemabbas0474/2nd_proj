@@ -1,0 +1,754 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Common classes start*/
+.heading-title {
+    font-size: 50px;
+    text-transform: capitalize;
+    padding: 5% 4%;
+    font-weight: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+
+.heading-title span {
+    color: rgb(7, 210, 246);
+}
+.main-heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 35px;
+}
+.main-heading span{
+    color: rgb(7, 210, 246);
+    font-size: 50px;
+    font-weight:bold;
+}
+.paragraph{
+    font-size: 16px;
+}
+
+#home{
+    background:url(images/nad.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(142, 144, 149);
+    background-blend-mode: darken;
+    background-size: cover;
+    clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 50% 100%, 0% 80%);
+    height: 107vh;
+    color: white;
+}
+.home-tlt{
+    width: 94%;
+    padding: 7% 0px 0px 5.5%;
+}
+.home-tlt h4{
+    margin: 1.2% 0px 0px 0px ;
+    text-transform: capitalize;
+    width: 90%;
+    color: rgb(245, 236, 212);
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+#home .home-about h2{
+    text-transform: capitalize;
+    margin: 3.3% 0px 0.6% 0px;
+    font-size: 29px;
+    width: 80%;
+}
+#home .home-about p{
+    padding: 10px 0px 0px 0px;
+    width: 68%;
+    font-size: 1rem;
+    color: rgb(241, 235, 215);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+}
+.home-about .btn-box{
+    display: flex;
+    justify-content: space-between;
+}
+.home-about .btn-box .btn{
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 2rem 0px 0px 0px ;
+    width: 180px;
+    height: 55px;
+    font-size: 16px;
+    background-color: rgb(79, 82, 82);
+    border: 3px solid rgb(17, 157, 238);
+    border-radius: 40px;
+    color: white;
+}
+.home-about .btn-box .btn i{
+    padding: 1% 5px;
+}
+.btn-box .home-box{
+    background-color: rgb(9, 170, 245, 0.8);
+    position: relative;
+    right: 16%;
+    top: 49px;
+    width: 200px;
+    height: 250px;
+    text-align: center;
+    float: right;
+    color: white;
+} 
+.btn-box .home-box h3{
+    padding: 12% 0px 0px 0px;
+    font-size: 70px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
+.btn-box .home-box h5{
+    align-items: center;
+    font-size: 17px;
+    text-align: center;
+    padding: 06% 20px 0px 20px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight:bold;
+}
+/* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+               My Services Section 
+SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+#my-serices{
+    width: 100%;
+    background-color: white;
+}
+
+#my-serices .services{
+    display: flex;
+    width: 90%;
+    padding: 0% 5% 5% 5%;
+}
+#my-serices .services .service-boxes{
+    border: whitesmoke 2px solid;
+    padding: 5% 2.5%;
+    margin:10px 20px 10px 0px;
+    justify-content: space-around;
+    box-shadow:2px 2px 2px 1px whitesmoke;
+}
+#my-serices .services .service-boxes h3{
+    padding: 3% 0%;
+    font-size: 22px;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(15, 15, 15, 0.924);
+    font-weight: 200;
+}    
+#my-serices .services .service-boxes p{
+    font-size: 1.1rem;
+    color: rgba(36, 33, 33, 0.739);
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+.services .service-boxes i{
+    color: rgb(7, 210, 246);
+    font-size: 45px;
+    padding-bottom: 3%;
+}
+/* SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+                    My Skill Section
+    SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS */
+.wrap{
+    width: 53%;
+    margin: 2% 0%;
+    height: 45%;
+    float: right;
+}
+.wrap .skill-button button{
+    background-color: rgba(4, 172, 250, 0.897);
+    color: white;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    width: 140px;
+}
+.bar{
+    color: rgb(7, 0, 0);
+    font-weight: 400;
+    font-size: 13px;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 45px;
+    width: 80%;
+}
+.wrap .bar h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    color: rgba(255, 254, 254, 0.911);
+}
+.bar span{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 07px;
+    background: rgb(253, 251, 251);
+    border-radius: 50px;
+}
+.bar span:before{
+    position: absolute;
+    content: '';
+    width: 95%;
+    height: 100%;
+    background: rgb(26, 183, 231);
+    border-radius: 50px;
+    animation: bar 4s ease;
+}
+.bar:nth-child(2) span:before{
+    background: red;
+}
+.bar:nth-child(4) span:before{
+    background: blue;
+}
+.bar:nth-child(3) span:before{
+    background: rgb(0, 225, 255);
+}
+@keyframes bar{
+    from{
+        width: 0;
+    }
+}
+.bar:nth-child(1) span:before{
+    width: 95%;
+}
+.bar:nth-child(2) span:before{
+    width: 85%;
+}
+.bar:nth-child(3) span:before{
+    width: 80%;
+}
+.bar:nth-child(4) span:before{
+    width: 75%;
+}
+.bar:nth-child(5) span:before{
+    width: 70%;
+}
+abbr{
+    width: 37px;
+    display: inline-block;
+    height: 22px;
+    color: white;
+    font-size: 17px;
+    border-radius: 05px;
+    text-align: center;
+    line-height: 26px;
+    position: absolute;
+    background: black;
+    animation: count 4s ease;
+}
+@keyframes count {
+    from{
+        left: 0%;
+    }
+}
+.bar:nth-child(1) abbr{
+    left: 95%;
+}
+.bar:nth-child(2) abbr{
+    left: 85%;
+}
+.bar:nth-child(3) abbr{
+    left: 80%;
+}
+.bar:nth-child(4) abbr{
+    left: 75%;
+}
+.bar:nth-child(5) abbr{
+    left: 70%;
+}
+
+
+#my-skill{
+    width: 100%;
+    background-image: url(images/image.jpg);
+    height: 109vh;
+    opacity: 0.9;
+    background-color: rgba(110, 102, 102, 0.507);
+    background-blend-mode: darken;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.skill-icons{
+    background-image: url(images/tea.jpg);
+    width: 100%;
+    height: 50vh;
+    background-position: center;
+    display: flex;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-size: cover;
+}
+.skill-icons .sklbox{
+    display: flex;
+    width: 80%;
+    padding: 0% 20px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+
+}
+.skill-icons .skill-boxes{
+    width: 18%;
+    text-align: center;
+    color: white;
+}
+.skill-icons .skill-boxes i{
+    padding: 19%;
+    color: rgba(0, 230, 251, 0.911);
+    font-size: 48px;
+}
+.skill-icons .skill-boxes h2{
+    font-weight: normal;
+    font-size: 30px;
+    padding: 7%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: rgb(250, 244, 229);
+
+}
+.skill-icons .skill-boxes p{
+    font-weight: normal;
+    font-size: 19px;
+    padding: 5% 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: rgba(246, 237, 217, 0.931);
+}
+/* TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
+                   My Team Section
+TTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT */
+#my-team{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    padding-top: 4%;
+}
+#my-team .mytm-mbrs{
+    display: flex;
+    width: 90%;
+    padding: 01% 5% 7%;
+    height: 100%;
+    flex-direction: row;
+}
+#my-team .team-mbrs{
+    width: 100%;
+    height: 100%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+}
+#my-team .mytm-mbrs .team-mbrs .teams{
+    width: 98%;
+    height: 100%;
+    margin: 20px 12px;
+}
+#my-team .team-mbrs .teams img{
+    width: 93%;
+    height: 100%;
+}
+#my-team .team-mbrs .teams h2{
+    text-align: center;
+    width: 93%;
+    font-size: 20px;
+    color: rgba(54, 51, 51, 0.795);
+    text-transform: capitalize;
+}
+#my-team .team-mbrs .teams p{
+    text-align: center;
+    box-sizing: border-box;
+    width: 93%;
+    color: rgb(8, 212, 248);
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#my-team .team-mbrs .teams .teams-icns{
+    background-color: rgb(40, 197, 245);
+    width: 93%;
+    margin-top: 14px;
+    padding: 3.5% 0%;
+    word-spacing: 15px;
+    color: white;
+    text-align: center;
+}
+#my-team .team-mbrs .teams .teams-icns a{
+    color: white;
+}
+/* PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP
+               My Portfolio Section
+PPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPP */
+#my-portfilo{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 7%;
+}
+#my-portfilo .nav{
+    width: 92%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 4%;
+}
+#my-portfilo .nav ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    text-align: center;
+    text-transform: capitalize;
+}
+#my-portfilo .nav ul li a{
+    margin: 9px;
+    font-size: 26px;
+    text-decoration: none;
+    font-weight:normal;
+    color: black;
+}
+#my-portfilo .nav ul li a:hover{
+    border-bottom: rgb(0, 153, 255) 4px solid;
+}
+#my-portfilo .prtflo-details{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+#my-portfilo .portfilo-images{
+    width: 93%;
+    height: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    margin: 0% 0% 0% 7%;
+}
+#my-portfilo .portfilo-images .img{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    height: 50%;
+    margin-top: 2%;
+}
+#my-portfilo .portfilo-images .img-phto{
+    height: 45vh;
+    width: 96%;
+    margin: 0% 0% 5% 0%;
+    box-shadow: 3px 2px 12px 7px rgb(230, 225, 225);
+}
+#my-portfilo .portfilo-images .img-phto img{
+    height: 90%;
+    width: 100%;
+    
+}
+#my-portfilo .portfilo-images .img-photos{
+    margin: 0% 0% 5% 0%;
+    height: 55vh;
+    width: 96%;
+    box-shadow: 3px 2px 12px 7px rgb(230, 225, 225);
+}
+#my-portfilo .portfilo-images .img-photos img{
+    height: 90%;
+    width: 100%;
+}
+#my-portfilo .portfilo-images .img p{
+    text-transform: uppercase;
+    padding: 2% 3%;
+    font-weight:500;
+    font-size: 15px;
+    color: black;
+}
+#my-portfilo .portfilo-images .img p span{
+    color: rgb(7, 210, 246);
+    font-size: 15px;
+    font-weight: bold;
+    float: right;
+}
+#my-portfilo .prtflo-details .prtflo-btn{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px;
+}
+#my-portfilo .prtflo-details .prtflo-btn button{
+    background-color: white;
+    border: 3px solid rgb(18, 191, 214);
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 1% 2%;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 50px;
+}
+/* CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC
+            Happy Clients Section
+CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC */
+#Happy-Clients{
+    background:rgba(223, 217, 217, 0.274);
+    width: 100%;
+    height: 80%;
+}
+#Happy-Clients .clients-boxes{
+    display: flex;
+    height: 60vh;
+    justify-content: space-between;
+    width: 92%;
+    padding: 0% 4%;
+}
+#Happy-Clients .clients-boxes .clients-box{
+    width: 97%;
+    height: 52%;
+    justify-items: center;
+    margin: 0% 2% 2% 0%;
+    padding-top: 02%;
+    border: 2px solid rgba(182, 177, 177, 0.253);
+    background-color: whitesmoke;
+}
+#Happy-Clients .clients-boxes .clients-box img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin: 0% 38%;
+}
+
+#Happy-Clients .clients-boxes .clients-box p{
+    text-align: center;
+    padding: 0% 5%;
+    font-size: 20px;
+    font-weight: 100;
+    color: rgba(5, 5, 5, 0.952);
+}
+#Happy-Clients .clients-boxes .clients-box h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 23px;
+    color: rgba(32, 31, 31, 0.596);
+    padding: 0% 2%;
+}
+#Happy-Clients .clients-boxes .clients-box h2{
+    text-align: center;
+    text-transform: capitalize;
+    color: rgba(19, 16, 16, 0.678);
+    font-style: normal;
+    font-size: 25px;
+    padding: 0% 5%;
+}
+#Happy-Clients .clients-boxes .clients-box i{
+    color: rgb(7, 210, 246);
+    font-size: 20px;
+    
+}
+/* NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN
+                    News Section
+    NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN */
+#latest-news{
+    width: 100%;
+    background-color: white;
+}
+#latest-news .news-boxes{
+    display: flex;
+    width: 94%;
+    margin: 4.5% 4%;
+}
+#latest-news .news-boxes .news-box{
+    display: flex;
+    width: 96%;
+    margin: 2% 4%;
+    height: 100%;
+}
+#latest-news .news-boxes .news-box .news-imges{
+    width: 93%;
+}
+#latest-news .news-boxes .news-box img{
+    width: 100%;
+    height: 100%;
+}  
+#latest-news .news-boxes .news-box .news-details 
+{
+    width: 85%;
+    background: whitesmoke;
+    padding: 8% 4%;
+}
+#latest-news .news-boxes .news-box .news-details h3{
+    font-weight: 500;
+    font-size: 30px;
+}
+#latest-news .news-boxes .news-box .news-details .john{
+    display: flex;
+    flex-direction: row;
+    padding: 05% 0%;
+    text-transform: capitalize;
+    font-weight: 500;
+}  
+#latest-news .news-boxes .news-box .news-details .john i{
+    color: rgb(7, 158, 246);
+    padding: 0px 8px 0px 10px;
+}
+#latest-news .news-boxes .news-box .news-details p{
+    font-size: 20px;
+    color: black;
+    font-weight:500;
+} 
+#latest-news .news-boxes .news-box .news-details button{
+    color: rgb(7, 158, 246);
+    padding: 5% 0%;
+    font-size: 17px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: whitesmoke;
+}     
+/* GETGETGETGETGETGETGETGETGETGETGETGETGETGET
+                Get In Touch Section
+    GETGETGETGETGETGETGETGETGETGETGETGETGETGET */
+#touch{
+    width: 96%;
+    height: 120vh;
+    background-color: rgba(184, 181, 181, 0.383);
+}
+#touch .contact .google-mape iframe{
+    width: 98%;
+    height: 99%;
+}
+#touch .contact .google-mape{
+    width: 100%;
+    height: 80%;
+    margin-left: 2%;
+}
+#touch .contact .form{
+    background-color: white;
+    width: 96%;
+    height: 80%;
+}
+#touch .contact .form h3{
+    text-transform: capitalize;
+    padding: 04% 2%;
+    font-weight: normal;
+    font-size: 34px;
+    color: rgba(12, 11, 11, 0.863);
+}
+#touch .contact{
+    width: 90%;
+    height: 88%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0% 4% 0%;
+}
+#touch .contact .for-form .frm{
+    margin: 1% 0%;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    justify-content: space-between;
+    width: 100%;
+	overflow: hidden;
+	font-size: 20px;
+}
+#touch .contact .for-form .frm input{
+    border: none;
+	outline: none;
+	color: white;
+	font-size: 18px;
+    border-bottom: 2px solid rgb(0, 195, 255);
+	width: 90%;
+	float: left;
+	margin: 10px 14px;
+    padding: 2% 1%;
+}
+#touch .contact .for-form .frm textarea{
+    border: none;
+    outline: none;
+    color: rgb(14, 11, 11);
+    border-bottom: 2px solid rgb(0, 195, 255);
+    width: 98%;
+    max-height: 100px;
+    margin: 0px 9px;
+    padding: 2% 1.5%;
+}
+#touch .contact .for-form button{
+    border: 3px solid rgb(0, 195, 255);
+    background-color: white;
+    padding: 2.5% 6%;
+    font-size: 20px;
+    margin: 15px 10px;
+    color: rgba(0, 0, 0, 0.534);
+    border-radius: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    text-transform: capitalize;
+}
+#touch .contact .for-form{
+    padding: 0% 0%;
+}
+
+/* FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+                  Footer Section
+FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF */
+.footer{
+    background-color: rgb(54, 67, 78);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 45vh;
+    align-items: center;
+    padding: 2rem 0;
+}
+.footer .footer-icons {
+   display: flex;
+   padding: 6px 0px;
+}
+.footer .footer-icons .icon-wrapper {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 0px 4px;
+   margin: 14px 13px;
+   height: 50px;
+   width: 45px;
+   font-size: 25px;
+   background-color: white;
+   color: black;
+   border-radius: 50%;
+   box-shadow: 0px 0px 4px 4px rgba(49, 148, 240, 0.541);
+}
+.footer .footer-icons .icon-wrapper i{
+    font-size: 30px;
+}
+.footer .footer-icons .icon-wrapper:hover {
+   background: rgba(0,0,0,0.4);
+   color: white;
+}
+.footer .footer-Address{
+    color: white;
+    letter-spacing: 2px;
+}
+.footer .footer-Address p{
+    font-size: 20px;
+    font-family: Times, serif;
+}
